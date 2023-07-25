@@ -7,7 +7,7 @@ export const Context = createContext<{
   filters: FiltersType
 }>({
   filters: {} as FiltersType,
-  books: [],
+  books: {} as BooksType,
 })
 interface Props {
   children: ReactNode
